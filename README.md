@@ -9,6 +9,20 @@
   <img src="docs/images/screenshot-page-summary.png" alt="직구의제왕 페이지 요약 답변 화면" width="48%" />
 </p>
 
+## 사용 Tool / 기술 스택
+
+| 영역 | 사용 Tool | 역할 |
+| --- | --- | --- |
+| 브라우저 확장 | Chrome Extension Manifest V3 | 사용자가 보고 있는 웹페이지를 읽고 사이드패널 UI를 제공 |
+| 프론트엔드 | React, TypeScript, Vite | 채팅, 페이지 요약, 선택 번역, 직구 확인, 퀴즈/단어장 화면 구현 |
+| UI 아이콘 | Lucide React | 버튼과 탭에 사용하는 아이콘 제공 |
+| 로컬 서버 | Node.js, Express, TypeScript | 확장 프로그램 요청을 받아 Agent 라우팅, 페이지 이해, RAG, 퀴즈 API 제공 |
+| LLM 연동 | OpenAI API | 자연어 답변, 페이지 요약, 번역, 퀴즈 생성 품질 개선 |
+| RAG 검색 | Python, FAISS, sentence-transformers | 관세청/식약처 문서를 벡터 검색해 직구 통관·제한 품목 근거 제공 |
+| 데이터 소스 | 관세청, 식약처 공개 문서 | 해외직구 통관, 개인통관고유부호, 합산과세, 인증요건, 반입제한 정보 |
+| 실행 자동화 | PowerShell, Batch | Windows에서 설치·빌드·서버 실행을 한 번에 처리 |
+| 저장소 관리 | Git, GitHub CLI | GitHub 레포 생성, 커밋, push 자동화 |
+
 ## 구조
 
 - `apps/extension`: Chrome Manifest V3 확장 프로그램
