@@ -2,6 +2,13 @@
 
 해외 웹페이지를 읽어 상품 페이지 질의에 답하고, 직구 제도/절차는 RAG 문서 기반으로 안내하며, 현재 페이지의 외국어 표현으로 퀴즈를 만드는 MVP입니다.
 
+## 미리보기
+
+<p align="center">
+  <img src="docs/images/screenshot-context-loading.png" alt="직구의제왕 페이지 컨텍스트 수집 화면" width="48%" />
+  <img src="docs/images/screenshot-page-summary.png" alt="직구의제왕 페이지 요약 답변 화면" width="48%" />
+</p>
+
 ## 구조
 
 - `apps/extension`: Chrome Manifest V3 확장 프로그램
