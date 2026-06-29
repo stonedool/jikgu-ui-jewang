@@ -1,0 +1,218 @@
+[
+  {
+    "id": "customs-guide-pdf",
+    "title": "해외직구 통관 길라잡이 PDF",
+    "url": "https://www.customs.go.kr/common/nttFileDownload.do?fileKey=380182026f8a7aa235a88a1abf2d8ecf",
+    "source": "관세청",
+    "category": "guide",
+    "publishedAt": "공식 PDF"
+  },
+  {
+    "id": "customs-import-declaration",
+    "title": "목록통관 / 간이·일반 수입신고 기준",
+    "url": "https://www.customs.go.kr/kcs/cm/cntnts/cntntsView.do?cntntsId=819&mi=2821",
+    "source": "관세청",
+    "category": "customs_clearance",
+    "publishedAt": "공식 웹문서"
+  },
+  {
+    "id": "unipass-personal-code",
+    "title": "개인통관고유부호 발급·조회·재발급",
+    "url": "https://unipass.customs.go.kr/per/persIndex.do",
+    "source": "관세청 UNI-PASS",
+    "category": "personal_customs_code",
+    "publishedAt": "공식 웹문서"
+  },
+  {
+    "id": "faq-personal-code-issue",
+    "title": "개인통관고유부호 발급 FAQ",
+    "url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=517&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "personal_customs_code",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-personal-code-error",
+    "title": "개인통관고유부호 누락·오류 수정 FAQ",
+    "url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=521&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "personal_customs_code",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-combined-taxation",
+    "title": "합산과세 기준 FAQ",
+    "url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=469&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "tax",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-taxable-value-shipping",
+    "title": "과세가격·배송비 포함 기준 FAQ",
+    "url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=490&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "tax",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "customs-tax-calculator",
+    "title": "해외직구 예상세액 조회",
+    "url": "https://www.customs.go.kr/kcs/ad/tax/BuyTaxCalculation.do",
+    "source": "관세청",
+    "category": "tax",
+    "publishedAt": "공식 웹문서"
+  },
+  {
+    "id": "faq-clearance-delay",
+    "title": "통관 지연 사유 FAQ",
+    "url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=446&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "delay",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-medicine-supplement",
+    "title": "의약품·건강기능식품 자가사용 인정 기준 FAQ",
+    "url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=478&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "restricted_goods",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-confirmation-goods",
+    "title": "세관장 확인 대상물품 통관 절차 FAQ",
+    "url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=443&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "restricted_goods",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-import-prohibited-goods",
+    "title": "관세법상 수입금지품목 FAQ",
+    "url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=282&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "restricted_goods",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-mail-return-restricted-goods",
+    "title": "우편물 반입제한물품 반송 사유 FAQ",
+    "url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=564&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "restricted_goods",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-import-requirement-documents",
+    "title": "수입통관 시 요건확인 서류 FAQ",
+    "url": "https://customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=278&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "restricted_goods",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-toys-children-product-safety",
+    "title": "완구·피규어 어린이제품 안전요건 FAQ",
+    "url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=256&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "toys_children_products",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-electrical-products-requirements",
+    "title": "전기용품 수입 절차 및 전파법 요건 FAQ",
+    "url": "https://customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=199&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "electrical_radio_products",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-decorative-lamp-electric-requirements",
+    "title": "장식용 램프 전기용품·전파법 수입요건 FAQ",
+    "url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=281&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "electrical_radio_products",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-laptop-personal-use-radio-requirements",
+    "title": "노트북 해외직구 개인사용 수량 및 전파법 요건 FAQ",
+    "url": "https://customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=487&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "electrical_radio_products",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-overseas-purchase-resale-limits",
+    "title": "해외직구 물품 재판매 제한 FAQ",
+    "url": "https://customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=1197&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "resale_restrictions",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-knife-import-requirements",
+    "title": "레저용 칼 수입 세관장확인 사항 FAQ",
+    "url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=285&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "weapons_knives",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-firearms-knives-carry-in",
+    "title": "총기·도검류 반입 신고 FAQ",
+    "url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=415&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "weapons_knives",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-meat-import-requirements",
+    "title": "육류 수입통관 검역·신고 요건 FAQ",
+    "url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=236&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "food_quarantine",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "faq-plants-herbal-import-requirements",
+    "title": "한약재·식용 식물 수입통관 절차 FAQ",
+    "url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=156&mi=6822",
+    "source": "관세청 고객지원센터",
+    "category": "plants_herbal_cites",
+    "publishedAt": "FAQ"
+  },
+  {
+    "id": "mfds-overseas-food-guide",
+    "title": "해외직구식품 올바로",
+    "url": "https://www.foodsafetykorea.go.kr/portal/fooddanger/foodDirectImportView.do",
+    "source": "식품안전나라",
+    "category": "food_safety",
+    "publishedAt": "공식 웹문서"
+  },
+  {
+    "id": "mfds-blocked-food-ingredients",
+    "title": "해외직구식품 국내 반입차단 원료·성분",
+    "url": "https://www.foodsafetykorea.go.kr/portal/fooddanger/foodDirectImportBlockRawIrdnt.do",
+    "source": "식품안전나라",
+    "category": "food_safety",
+    "publishedAt": "공식 웹문서"
+  },
+  {
+    "id": "mfds-harmful-food-block-list",
+    "title": "해외직구 위해식품 차단 목록",
+    "url": "https://www.foodsafetykorea.go.kr/portal/fooddanger/foodDirectImportBlock.do",
+    "source": "식품안전나라",
+    "category": "food_safety",
+    "publishedAt": "공식 웹문서"
+  },
+  {
+    "id": "customs-crossborder-portal",
+    "title": "해외직구 통합 포털",
+    "url": "https://www.customs.go.kr/kcs/ad/cntnts/cntntsView.do?cntntsId=10220&mi=10220",
+    "source": "관세청",
+    "category": "portal",
+    "publishedAt": "공식 웹문서"
+  }
+]

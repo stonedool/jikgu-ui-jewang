@@ -1,0 +1,23 @@
+{
+  "name": "jikgu-ui-jewang",
+  "version": "0.1.0",
+  "private": true,
+  "description": "직구의제왕 browser extension and local agent server.",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "setup:windows": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/setup.ps1",
+    "start:windows": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start.ps1",
+    "dev:extension": "npm run dev -w apps/extension",
+    "dev:server": "npm run dev -w apps/server",
+    "build": "npm run build -w apps/server && npm run build -w apps/extension",
+    "build:extension": "npm run build -w apps/extension",
+    "build:server": "npm run build -w apps/server",
+    "start:server": "npm run start -w apps/server",
+    "typecheck": "npm run typecheck -w apps/server && npm run typecheck -w apps/extension"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

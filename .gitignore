@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+apps/server/data/local-docs.json
+apps/server/data/rag/raw/
+apps/server/data/rag/texts/
+apps/server/data/rag/index/
+__pycache__/
+*.pyc

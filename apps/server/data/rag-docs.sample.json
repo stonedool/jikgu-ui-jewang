@@ -1,0 +1,42 @@
+[
+  {
+    "id": "sample-customs-id",
+    "title": "개인통관고유부호 확인 원칙",
+    "source": "샘플 문서",
+    "sourceUrl": "https://unipass.customs.go.kr",
+    "publishedAt": "운영 전 최신 문서로 교체 필요",
+    "collectedAt": "2026-06-30",
+    "category": "customs",
+    "content": "해외직구 물품을 국내로 반입할 때는 통관 단계에서 수취인 식별 정보가 요구될 수 있다. 개인통관고유부호는 주민등록번호 대신 사용할 수 있는 식별 번호이며, 주문자와 수취인 정보가 일치하는지 확인해야 한다. 실제 적용 기준은 관세청 최신 안내를 확인해야 한다."
+  },
+  {
+    "id": "sample-restricted-goods",
+    "title": "수입 금지 및 제한 품목 확인 원칙",
+    "source": "샘플 문서",
+    "sourceUrl": "https://www.customs.go.kr",
+    "publishedAt": "운영 전 최신 문서로 교체 필요",
+    "collectedAt": "2026-06-30",
+    "category": "restricted_goods",
+    "content": "의약품, 건강기능식품, 식품, 화장품, 전자기기, 배터리 포함 제품 등은 품목별로 반입 제한이나 별도 확인이 필요할 수 있다. 성분명, 수량, 용도, 인증 필요 여부에 따라 통관 가능성이 달라질 수 있으므로 구매 전 공식 기관의 최신 자료를 확인해야 한다."
+  },
+  {
+    "id": "sample-forwarding",
+    "title": "배송대행지 이용 체크리스트",
+    "source": "샘플 문서",
+    "sourceUrl": "https://www.kca.go.kr",
+    "publishedAt": "운영 전 최신 문서로 교체 필요",
+    "collectedAt": "2026-06-30",
+    "category": "forwarding",
+    "content": "배송대행지를 사용할 때는 현지 배송비, 국제 배송비, 검수 범위, 합배송 수수료, 반품 대행 가능 여부, 파손 보상 기준을 확인해야 한다. 주문 전 쇼핑몰 반품 기간과 배송대행지 입고 처리 시간을 함께 고려해야 한다."
+  },
+  {
+    "id": "sample-consumer-dispute",
+    "title": "해외직구 소비자 분쟁 대응 원칙",
+    "source": "샘플 문서",
+    "sourceUrl": "https://crossborder.kca.go.kr",
+    "publishedAt": "운영 전 최신 문서로 교체 필요",
+    "collectedAt": "2026-06-30",
+    "category": "consumer",
+    "content": "해외 쇼핑몰에서 주문 취소, 미배송, 오배송, 환불 지연이 발생하면 주문번호, 결제내역, 상품 설명, 판매자와의 대화 기록을 보관해야 한다. 카드사 차지백이나 소비자 상담 기관 도움을 받을 수 있으나, 절차와 가능 여부는 결제수단과 거래 조건에 따라 달라진다."
+  }
+]

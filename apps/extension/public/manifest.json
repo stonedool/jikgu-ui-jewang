@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "직구의제왕",
+  "version": "0.1.0",
+  "description": "현재 웹페이지 기반 질의응답, 직구 RAG 안내, 외국어 퀴즈를 제공하는 직구의제왕입니다.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "sidePanel",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "직구의제왕"
+  },
+  "background": {
+    "service_worker": "assets/background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "assets/contentScript.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}
