@@ -27,67 +27,18 @@
 
 - `apps/extension`: Chrome Manifest V3 확장 프로그램
 - `apps/server`: 로컬 Agent API 서버
+- `/dist` : 실행 파일 
 
 ## 빠른 시작
 
-### Windows 원클릭 실행
+### 크롬 익스텐션 추가 
 
-처음 받은 PC에서는 아래 파일을 한 번 실행합니다.
+1. 크롬 우측 상단 ... 버튼을 클릭하여 설정 클릭 
+2. 설정 하단 확장프로그램 클릭
+3. 우측 상단 개발자모드 클릭
+4. 좌측 상단 압축해제된 확장프로그램 로드 클릭
+5. /dist 폴더 선택
 
-```powershell
-.\setup-windows.bat
-```
-
-이후 실행할 때는 아래 파일만 실행합니다.
-
-```powershell
-.\start-windows.bat
-```
-
-`start-windows.bat`은 서버를 실행하고 Chrome 확장 프로그램 로드 위치인 `apps/extension/dist` 폴더를 열어줍니다. Chrome에서는 `chrome://extensions`에서 개발자 모드를 켠 뒤 `압축해제된 확장 프로그램 로드`로 해당 폴더를 선택합니다. 이미 로드해둔 경우에는 확장 프로그램 새로고침 버튼만 누르면 됩니다.
-
-필요 프로그램:
-
-- Node.js 20 이상
-- Python 3.10 이상
-
-OpenAI 키를 바로 넣어 설치하려면 아래처럼 실행할 수 있습니다.
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File scripts/setup.ps1 -OpenAIKey "sk-..."
-```
-
-RAG 문서 다운로드/인덱싱을 건너뛰고 빠르게 설치하려면:
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File scripts/setup.ps1 -SkipRag
-```
-
-### 수동 실행
-
-```bash
-npm install
-npm run build
-npm run start:server
-```
-
-Chrome에서 `apps/extension/dist` 폴더를 압축해제된 확장 프로그램으로 로드합니다.
-
-## 개발 실행
-
-터미널 1:
-
-```bash
-npm run dev:server
-```
-
-터미널 2:
-
-```bash
-npm run dev:extension
-```
-
-확장 프로그램 개발 서버 빌드는 일반 웹 미리보기용이고, 실제 Chrome 확장 프로그램 로드는 `npm run build:extension` 이후 `apps/extension/dist`를 사용합니다.
 
 ## OpenAI 설정
 
