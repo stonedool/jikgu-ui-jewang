@@ -1,6 +1,6 @@
 import type { AgentResponse, PageContext, UserProfile } from "./types";
 
-const DEFAULT_SERVER_URL = "http://localhost:8787";
+export const DEFAULT_SERVER_URL = "https://jikgu-ui-jewang-production.up.railway.app";
 
 export async function getServerUrl(): Promise<string> {
   const result = await chrome.storage.local.get("serverUrl");
