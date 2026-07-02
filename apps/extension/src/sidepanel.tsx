@@ -14,7 +14,7 @@ import {
   ShieldCheck,
   X
 } from "lucide-react";
-import { askAgent, generateQuiz, getHealth, getServerUrl, setServerUrl } from "./api";
+import { DEFAULT_SERVER_URL, askAgent, generateQuiz, getHealth, getServerUrl, setServerUrl } from "./api";
 import { collectPageContext } from "./pageContext";
 import { clearVocabulary, getVocabulary, recordQuizAnswer } from "./storage";
 import type { AgentResponse, PageContext, QuizItem, StoredVocab, UserProfile } from "./types";
@@ -243,7 +243,7 @@ function App() {
   }
 
   async function saveServerUrl() {
-    await setServerUrl(serverUrl.trim() || "http://localhost:8787");
+    await setServerUrl(serverUrl.trim() || DEFAULT_SERVER_URL);
     await refreshHealth();
     setSettingsOpen(false);
   }
@@ -318,7 +318,7 @@ function App() {
               id="server-url"
               value={serverUrl}
               onChange={(event) => setServerUrlState(event.target.value)}
-              placeholder="http://localhost:8787"
+              placeholder={DEFAULT_SERVER_URL}
             />
             <button type="button" onClick={saveServerUrl}>저장</button>
           </div>
