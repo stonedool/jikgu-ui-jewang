@@ -1,0 +1,5 @@
+[phases.setup]
+aptPkgs = ["...", "python3-pip"]
+
+[start]
+cmd = "npm run start"
