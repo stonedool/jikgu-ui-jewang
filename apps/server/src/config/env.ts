@@ -5,4 +5,5 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 config({ path: path.resolve(process.cwd(), ".env") });
-config({ path: path.resolve(__dirname, "../../.env"), override: true });
+config({ path: path.resolve(__dirname, "../../.env") });
+
